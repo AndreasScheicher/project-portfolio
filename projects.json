@@ -1,0 +1,23 @@
+[
+    {
+        "id": "1",
+        "title": "Predict Scientist Rankings",
+        "description": " How well can machine learning predict the ranking of the most impactful scientists? And can it generate personalised recommendations to improve the rankings?",
+        "image": "./projects/images/scientist_rankings_1.png",
+        "link": "./scientist-rankings.html"
+    },
+    {
+        "id": "2",
+        "title": "Visualize Amazon Sales",
+        "description": "An interactive Visualization of Amazon sales. Adjust the timeframe and products, and compare different smoothing methods.",
+        "image": "./projects/images/amazon_sales_1.png",
+        "link": "./amazon-sales.html"
+    },
+    {
+        "id": "3",
+        "title": "Statistical Analysis of the Loudness War",
+        "description": "Using Spotify data of tracks from the last 100 years, this project quantifies the trend in recorded music of losing dynamic range in favour or loudness.",
+        "image": "./assets/jpeg/project-mockup-example.jpeg",
+        "link": "./loudness-war.html"
+    }
+]
