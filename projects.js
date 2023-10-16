@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (projectData) {
           document.getElementById('projectTitle').textContent = projectData.title;
           document.getElementById('projectDescription').textContent = projectData.description;
+          document.title = projectData.title;
         }
       })
       .catch(error => {
