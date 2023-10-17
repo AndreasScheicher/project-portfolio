@@ -3,7 +3,7 @@
         "id": "1",
         "title": "Predict Scientist Rankings",
         "description": " How well can machine learning predict the ranking of the most impactful scientists? And can it generate personalised recommendations to improve the rankings?",
-        "image": "./projects/images/scientist_rankings_1.png",
+        "image": "./projects/images/scientist_rankings_3.png",
         "link": "./scientist-rankings.html"
     },
     {
