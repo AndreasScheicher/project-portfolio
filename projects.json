@@ -17,7 +17,7 @@
         "id": "3",
         "title": "Statistical Analysis of the Loudness War",
         "description": "Using Spotify data of tracks from the last 100 years, this project quantifies the trend in recorded music of losing dynamic range in favour of loudness.",
-        "image": "./assets/jpeg/project-mockup-example.jpeg",
+        "image": "./projects/images/loudness_war_2.png",
         "link": "./loudness-war.html"
     }
 ]
