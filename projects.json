@@ -9,7 +9,7 @@
     {
         "id": "2",
         "title": "Visualize Amazon Sales",
-        "description": "An interactive Visualization of Amazon sales. Adjust the timeframe and products, and compare different smoothing methods.",
+        "description": "An interactive visualization of Amazon sales. Adjust the timeframe and products, and compare different smoothing methods.",
         "image": "./projects/images/amazon_sales_1.png",
         "link": "./amazon-sales.html"
     },
