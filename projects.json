@@ -19,5 +19,12 @@
         "description": "Using Spotify data of tracks from the last 100 years, this project quantifies the trend in recorded music of losing dynamic range in favour of loudness.",
         "image": "./projects/images/loudness_war_2.png",
         "link": "./loudness-war.html"
+    },
+    {
+        "id": "4",
+        "title": "Evolution of Linguistic Diversity (In Development)",
+        "description": "This project explores how words evolve to have multiple meanings over time and how people's sensitivity to word variations affects the way word meanings change.",
+        "image": "./projects/images/language_diversity_1.png",
+        "link": "./language-diversity.html"
     }
 ]
