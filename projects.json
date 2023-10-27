@@ -2,26 +2,33 @@
     {
         "id": "1",
         "title": "Predict Scientist Rankings",
-        "description": " How well can machine learning predict the ranking of the most impactful scientists? And can it generate personalised recommendations to improve the rankings?",
+        "description": "How well can machine learning predict the ranking of the most impactful scientists? And can it generate personalised recommendations to improve the rankings?",
         "image": "./projects/images/scientist_rankings_3.png",
         "link": "./scientist-rankings.html"
     },
     {
         "id": "2",
+        "title": "Azure Functions: Update Spotify Playlist via API",
+        "description": "A severless function to add new tracks of the weekly Superfly.fm radio show Yachthafen to a Spotify playlist.",
+        "image": "./projects/images/yachthafen_1.png",
+        "link": "./spotify-playlist.html"
+    },
+    {
+        "id": "3",
         "title": "Visualize Amazon Sales",
         "description": "An interactive visualization of Amazon sales. Adjust the timeframe and products, and compare different smoothing methods.",
         "image": "./projects/images/amazon_sales_1.png",
         "link": "./amazon-sales.html"
     },
     {
-        "id": "3",
+        "id": "4",
         "title": "Statistical Analysis of the Loudness War",
         "description": "Using Spotify data of tracks from the last 100 years, this project quantifies the trend in recorded music of losing dynamic range in favour of loudness.",
         "image": "./projects/images/loudness_war_2.png",
         "link": "./loudness-war.html"
     },
     {
-        "id": "4",
+        "id": "5",
         "title": "Evolution of Linguistic Diversity (In Development)",
         "description": "This project explores how words evolve to have multiple meanings over time and how people's sensitivity to word variations affects the way word meanings change.",
         "image": "./projects/images/language_diversity_1.png",
