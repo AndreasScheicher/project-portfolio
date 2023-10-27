@@ -15,6 +15,17 @@
       href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
       rel="stylesheet"
     />
+    <script>
+      function resizeIframe(obj) {
+          obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
+      }
+    </script>
+    <style>
+      .iframe-container {
+        padding: 0 200px;
+        overflow: hidden;
+      }
+    </style>
   </head>
   <body>
     <header class="header">
@@ -84,51 +95,30 @@
     </header>
     <section class="project-cs-hero">
       <div class="project-cs-hero__content">
-        <h1 class="heading-primary">Project 3</h1>
+        <h1 class="heading-primary" id="projectTitle">Placeholder Title</h1>
         <div class="project-cs-hero__info">
-          <p class="text-primary">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
-            in numquam incidunt earum quaerat cum fuga, atque similique natus
-            nobis sit.
+          <p class="text-primary" id="projectDescription">
+            Placeholder Description
           </p>
         </div>
         <div class="project-cs-hero__cta">
-          <a href="#" class="btn btn--bg" target="_blank">Live Link</a>
+          <a href="#" class="btn btn--bg" target="_blank">View on Github</a>
         </div>
       </div>
     </section>
     <section class="project-details">
+      <div class="iframe-container">
+        <iframe src="#" width="100%" height="2500" frameborder="0" onload="resizeIframe(this)" scrolling="no"></iframe>
+      </div>
       <div class="main-container">
         <div class="project-details__content">
           <div class="project-details__showcase-img-cont">
-            <img
-              src="./assets/jpeg/project-mockup-example.jpeg"
-              alt="Project Image"
-              class="project-details__showcase-img"
-            />
+
           </div>
           <div class="project-details__content-main">
-            <div class="project-details__desc">
-              <h3 class="project-details__content-title">Project Overview</h3>
-              <p class="project-details__desc-para">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-                alias tenetur minus quaerat aliquid, aut provident blanditiis,
-                deleniti aspernatur ipsam eaque veniam voluptatem corporis vitae
-                mollitia laborum corrupti ullam rem. Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Neque alias tenetur minus quaerat
-                aliquid, aut provident blanditiis, deleniti aspernatur ipsam
-                eaque veniam voluptatem corporis vitae mollitia laborum corrupti
-                ullam rem?
-              </p>
-              <p class="project-details__desc-para">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-                alias tenetur minus quaerat aliquid, aut provident blanditiis,
-                deleniti aspernatur ipsam eaque veniam voluptatem corporis vitae
-                mollitia laborum corrupti ullam rem?
-              </p>
-            </div>
+
             <div class="project-details__tools-used">
-              <h3 class="project-details__content-title">Tools Used</h3>
+              <h3 class="project-details__content-title">Keywords</h3>
               <div class="skills">
                 <div class="skills__skill">HTML</div>
                 <div class="skills__skill">CSS</div>
@@ -173,14 +163,14 @@
               <span>Social</span>
             </h2>
             <div class="main-footer__social-cont">
-              <a target="_blank" rel="noreferrer" href="#">
+              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/andreas-scheicher/">
                 <img
                   class="main-footer__icon"
                   src="./assets/png/linkedin-ico.png"
                   alt="icon"
                 />
               </a>
-              <a target="_blank" rel="noreferrer" href="#">
+              <a target="_blank" rel="noreferrer" href="https://github.com/AndreasScheicher">
                 <img
                   class="main-footer__icon"
                   src="./assets/png/github-ico.png"
@@ -229,5 +219,6 @@
       </div>
     </footer>
     <script src="./index.js"></script>
+	<script src="./projects.js"></script>
   </body>
 </html>
